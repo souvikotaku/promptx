@@ -11,9 +11,14 @@ const layout = ({ children }) => {
   return (
     <html lang="en">
       <body>
+        {/* <div className="pl-5 pr-5">
+          <Nav />
+        </div> */}
+
         <div className="main">
           <div className="gradient" />
         </div>
+
         <main className="app">
           <Nav />
           {children}
